@@ -100,8 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             });
     }
 
-    // Optionnel : Charger un onglet par défaut au chargement de la page
-    loadTabContent('contacts'); // Par exemple, chargez l'onglet "contacts" par défaut
+    loadTabContent('contacts'); 
 
     // Basculer entre les modes sombre et clair
     const toggleDarkModeButton = document.getElementById('toggleDarkMode');
